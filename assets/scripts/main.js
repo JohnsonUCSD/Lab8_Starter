@@ -62,7 +62,7 @@ function initializeServiceWorker() {
       // B5. TODO - In the event that the service worker registration fails, console
       //            log that it has failed.
       catch (error) {
-        console.error(error);
+        console.error("Service worker registration failed", error);
       }
       // STEPS B6 ONWARDS WILL BE IN /sw.js
     });
