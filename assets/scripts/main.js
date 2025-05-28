@@ -62,7 +62,7 @@ function initializeServiceWorker() {
       // B5. TODO - In the event that the service worker registration fails, console
       //            log that it has failed.
       catch (error) {
-        console.error(`Registration failed with ${error}`);
+        console.error(error);
       }
       // STEPS B6 ONWARDS WILL BE IN /sw.js
     });
@@ -129,7 +129,7 @@ async function getRecipes() {
       }
       catch(error){
         // A10. TODO - Log any errors from catch using console.error
-        console.error('Error fetching recipe from ${url}:', error);
+        console.error(error);
         // A11. TODO - Pass any errors to the Promise's reject() function
         reject(error);
       }

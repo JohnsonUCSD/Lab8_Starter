@@ -2,7 +2,7 @@
     "name": "Lab8_Starter",
     "short_name": "Johnson Chung",
     "description": "CSE 110 Lab 8: Recipe Cards with Fetch API & ServiceWorkers ",
-    "start_url": "index.html",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "blue",
     "theme_color": "green",
